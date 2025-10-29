@@ -174,3 +174,15 @@ section {
 .btn:hover {
   background: #005fcc;
 }
+
+@media screen and (max-width: 1080px) {
+  .du-an-item {
+    flex-direction: column; 
+    align-items: center;   
+    flex-wrap: wrap;         
+  }
+
+  .duan-info {
+    margin-top: 20px;    
+  }
+}
