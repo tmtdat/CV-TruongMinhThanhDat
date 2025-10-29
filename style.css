@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body{
+  flex: 1080px;
+}
+
 .cv {
   display: flex;
   width: 100%;
@@ -12,7 +16,7 @@
 
 /* --- CỘT TRÁI --- */
 .aside {
-  flex: 0 0 30%;          /* luôn chiếm 30% màn hình */
+  flex: 0 0 20%;          /* luôn chiếm 30% màn hình */
   background: #2799e9;
   padding: 40px 20px;
   display: flex;
@@ -67,7 +71,7 @@ p{
 
 /* --- CỘT PHẢI --- */
 .noidung {
-  flex: 0 0 70%;     
+  flex: 0 0 80%;     
   padding: 2%;
   overflow-y: auto;
   background: #f9f9f9;
@@ -78,7 +82,7 @@ section {
   margin-bottom: 40px;
 }
 /* Dự án */
-.duan h3{
+.duan h2{
   margin: 20px 0px;
 }
 /* --- KHUNG CHÍNH CHỨA ẢNH + NỘI DUNG --- */
