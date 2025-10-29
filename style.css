@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cv {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* --- CỘT TRÁI --- */
+.aside {
+  flex: 0 0 30%;          /* luôn chiếm 30% màn hình */
+  background: #2799e9;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.05);
+}
+
+.khunganh {
+  width: 150px;            
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto 20px auto; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.anh-chan-dung {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* --- THÔNG TIN --- */
+.ttchung {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.ttchung h2 {
+  font-size: 1.4em;
+  color: #ffffff;
+}
+
+.ttchung p {
+  margin: 5px 0;
+  color: #ffffff;
+}
+
+
+p{
+    margin-top: 7px;
+}
+
+.kynang li {
+    margin-top: 7px;
+    margin-bottom: 6px;
+    color: #ffffff;
+}
+
+/* --- CỘT PHẢI --- */
+.noidung {
+  flex: 0 0 70%;     
+  padding: 2%;
+  overflow-y: auto;
+  background: #f9f9f9;
+}
+
+
+section {
+  margin-bottom: 40px;
+}
+/* Dự án */
+.duan h3{
+  margin: 20px 0px;
+}
+/* --- KHUNG CHÍNH CHỨA ẢNH + NỘI DUNG --- */
+.du-an-item {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+/* --- CỘT TRÁI: 3 HÌNH ẢNH --- */
+.duan-anh {
+  flex: 0 0 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Ảnh lớn trên cùng */
+.anh.lon img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+/* Hai ảnh nhỏ bên dưới */
+.anh.nho {
+  
+  display: flex;
+  gap: 10px;
+}
+
+.anh.nho img {
+  flex: 1;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+/* --- CỘT PHẢI: THÔNG TIN --- */
+.duan-info {
+  
+  flex: 1;
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px 25px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.duan-info h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.duan-info p {
+  margin-bottom: 8px;
+  color: #555;
+  line-height: 1.5;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 10px;
+  background: #0078ff;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #005fcc;
+}
