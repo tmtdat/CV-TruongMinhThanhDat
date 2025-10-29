@@ -4,9 +4,6 @@
   box-sizing: border-box;
 }
 
-body{
-  flex: 1080px;
-}
 
 .cv {
   display: flex;
