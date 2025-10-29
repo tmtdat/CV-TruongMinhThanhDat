@@ -4,16 +4,14 @@
   box-sizing: border-box;
 }
 
-
 .cv {
   display: flex;
   width: 100%;
   min-height: 100vh;
 }
 
-/* --- CỘT TRÁI --- */
 .aside {
-  flex: 0 0 20%;          /* luôn chiếm 30% màn hình */
+  flex: 0 0 20%;
   background: #2799e9;
   padding: 40px 20px;
   display: flex;
@@ -23,11 +21,11 @@
 }
 
 .khunganh {
-  width: 150px;            
+  width: 150px;
   height: 150px;
   border-radius: 50%;
   overflow: hidden;
-  margin: 0 auto 20px auto; 
+  margin: 0 auto 20px auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -39,7 +37,6 @@
   object-fit: cover;
 }
 
-/* --- THÔNG TIN --- */
 .ttchung {
   text-align: center;
   margin-bottom: 20px;
@@ -55,41 +52,65 @@
   color: #ffffff;
 }
 
+p {
+  margin-top: 7px;
+}
 
-p{
-    margin-top: 7px;
+.kynang {
+  margin-top: 20px;
+  padding: 10px 15px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+.kynang h3 {
+  text-align: center;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #fff;
+  /* đổi nếu nền sáng */
+  letter-spacing: 1px;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 5px;
+}
+
+.kynang ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .kynang li {
-    margin-top: 7px;
-    margin-bottom: 6px;
-    color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  padding: 8px 12px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  font-weight: 500;
 }
 
-/* --- CỘT PHẢI --- */
 .noidung {
-  flex: 0 0 80%;     
+  flex: 0 0 80%;
   padding: 2%;
   overflow-y: auto;
   background: #f9f9f9;
 }
 
-
 section {
   margin-bottom: 40px;
 }
-/* Dự án */
-.duan h2{
+
+.duan h2 {
   margin: 20px 0px;
 }
-/* --- KHUNG CHÍNH CHỨA ẢNH + NỘI DUNG --- */
+
 .du-an-item {
   display: flex;
   gap: 20px;
   align-items: flex-start;
 }
 
-/* --- CỘT TRÁI: 3 HÌNH ẢNH --- */
+
 .duan-anh {
   flex: 0 0 45%;
   display: flex;
@@ -97,18 +118,16 @@ section {
   gap: 10px;
 }
 
-/* Ảnh lớn trên cùng */
 .anh.lon img {
   width: 100%;
   height: 300px;
   object-fit: cover;
   border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
-/* Hai ảnh nhỏ bên dưới */
 .anh.nho {
-  
+
   display: flex;
   gap: 10px;
 }
@@ -118,17 +137,16 @@ section {
   height: 200px;
   object-fit: cover;
   border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
-/* --- CỘT PHẢI: THÔNG TIN --- */
 .duan-info {
-  
+
   flex: 1;
   background: #fff;
   border-radius: 12px;
   padding: 20px 25px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .duan-info h2 {
